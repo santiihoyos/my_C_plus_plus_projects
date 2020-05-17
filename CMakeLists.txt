@@ -3,4 +3,4 @@ project(Ejemplo1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Ejemplo1 demo_sintaxys.cpp)
+add_executable(Ejemplo1 main_1.cpp)

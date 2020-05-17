@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/santi/CLionProjects/Ejemplo1
+CMAKE_SOURCE_DIR = /Users/santi/Desarrollo/c++/my_C_plus_plus_projects
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/santi/CLionProjects/Ejemplo1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/santi/Desarrollo/c++/my_C_plus_plus_projects/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/santi/CLionProjects/Ejemplo1/cmake-build-debug/CMakeFiles /Users/santi/CLionProjects/Ejemplo1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/santi/Desarrollo/c++/my_C_plus_plus_projects/cmake-build-debug/CMakeFiles /Users/santi/Desarrollo/c++/my_C_plus_plus_projects/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/santi/CLionProjects/Ejemplo1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/santi/Desarrollo/c++/my_C_plus_plus_projects/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ Ejemplo1/fast:
 	$(MAKE) -f CMakeFiles/Ejemplo1.dir/build.make CMakeFiles/Ejemplo1.dir/build
 .PHONY : Ejemplo1/fast
 
-demo_sintaxys.o: demo_sintaxys.cpp.o
+main_1.o: main_1.cpp.o
 
-.PHONY : demo_sintaxys.o
+.PHONY : main_1.o
 
 # target to build an object file
-demo_sintaxys.cpp.o:
-	$(MAKE) -f CMakeFiles/Ejemplo1.dir/build.make CMakeFiles/Ejemplo1.dir/demo_sintaxys.cpp.o
-.PHONY : demo_sintaxys.cpp.o
+main_1.cpp.o:
+	$(MAKE) -f CMakeFiles/Ejemplo1.dir/build.make CMakeFiles/Ejemplo1.dir/main_1.cpp.o
+.PHONY : main_1.cpp.o
 
-demo_sintaxys.i: demo_sintaxys.cpp.i
+main_1.i: main_1.cpp.i
 
-.PHONY : demo_sintaxys.i
+.PHONY : main_1.i
 
 # target to preprocess a source file
-demo_sintaxys.cpp.i:
-	$(MAKE) -f CMakeFiles/Ejemplo1.dir/build.make CMakeFiles/Ejemplo1.dir/demo_sintaxys.cpp.i
-.PHONY : demo_sintaxys.cpp.i
+main_1.cpp.i:
+	$(MAKE) -f CMakeFiles/Ejemplo1.dir/build.make CMakeFiles/Ejemplo1.dir/main_1.cpp.i
+.PHONY : main_1.cpp.i
 
-demo_sintaxys.s: demo_sintaxys.cpp.s
+main_1.s: main_1.cpp.s
 
-.PHONY : demo_sintaxys.s
+.PHONY : main_1.s
 
 # target to generate assembly for a file
-demo_sintaxys.cpp.s:
-	$(MAKE) -f CMakeFiles/Ejemplo1.dir/build.make CMakeFiles/Ejemplo1.dir/demo_sintaxys.cpp.s
-.PHONY : demo_sintaxys.cpp.s
+main_1.cpp.s:
+	$(MAKE) -f CMakeFiles/Ejemplo1.dir/build.make CMakeFiles/Ejemplo1.dir/main_1.cpp.s
+.PHONY : main_1.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Ejemplo1"
-	@echo "... demo_sintaxys.o"
-	@echo "... demo_sintaxys.i"
-	@echo "... demo_sintaxys.s"
+	@echo "... main_1.o"
+	@echo "... main_1.i"
+	@echo "... main_1.s"
 .PHONY : help
 
 
